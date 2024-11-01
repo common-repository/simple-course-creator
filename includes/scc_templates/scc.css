@@ -1,0 +1,54 @@
+/**
+ * To edit, create a folder called "scc_templates" in the root of your theme
+ * and COPY this file into it. It will override the plugin's CSS file.
+ */
+
+/* default post listing styles */
+#scc-wrap {
+	position: relative;
+	padding: 1em 0 1.4em;
+	border-width: 2px 0;
+	border-style: dotted;
+	border-color: rgba(0,0,0,.1);
+	margin-bottom: 1.5em;
+}
+#scc-wrap .scc-post-container {
+	display: none;
+}
+#scc-wrap .scc-show-posts {
+	display: block;
+}
+#scc-wrap p:last-of-type {
+	margin: 0 1em 0 0;
+}
+#scc-wrap ol,
+#scc-wrap ul {
+	padding: 1.5em 0 0;
+	margin: 0;
+}
+#scc-wrap li {
+	list-style-position: inside;
+	padding: .5em 0 0 0;
+}
+#scc-wrap li:first-child {
+	padding-top: 0;
+}
+#scc-wrap li:last-child {
+	padding-bottom: 0;
+}
+#scc-wrap .scc-list-item {
+}
+#scc-wrap a {
+}
+#scc-wrap h3 {
+	margin-top: 0;
+}
+#scc-wrap .scc-toggle-post-list {
+	position: absolute;
+		right: 0;
+		bottom: 10px;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: none;
+}
